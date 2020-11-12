@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calc_Dis</string>
+    <string name="res">0</string>
+    <string name="nue">9</string>
+    <string name="och">8</string>
+    <string name="sie">7</string>
+    <string name="sei">6</string>
+    <string name="cin">5</string>
+    <string name="cua">4</string>
+    <string name="tre">3</string>
+    <string name="dos">2</string>
+    <string name="un">1</string>
+    <string name="mas">+</string>
+    <string name="men">-</string>
+    <string name="mul">x</string>
+    <string name="div">/</string>
+    <string name="del">DEL</string>
+    <string name="igu">=</string>
+    <string name="pun">.</string>
+</resources>
