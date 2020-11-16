@@ -18,18 +18,26 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtresult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/res"
+            android:hint="@string/res"
             android:textAlignment="viewEnd"
             android:textSize="75sp" />
+
+        <TextView
+            android:id="@+id/texop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textSize="50sp" />
     </LinearLayout>
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
@@ -40,39 +48,56 @@
 
             <Button
                 android:id="@+id/bot7"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="siete"
                 android:text="@string/sie"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot8"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="ocho"
                 android:text="@string/och"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot9"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="nueve"
                 android:text="@string/nue"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:iconTint="#FFFFFF"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/botdivision"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="div"
                 android:text="@string/div"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -81,39 +106,55 @@
 
             <Button
                 android:id="@+id/bot4"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="cuatro"
                 android:text="@string/cua"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot5"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="cinco"
                 android:text="@string/cin"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot6"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="seis"
                 android:text="@string/sei"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/botmulti"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="mul"
                 android:text="@string/mul"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -122,39 +163,55 @@
 
             <Button
                 android:id="@+id/bot1"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="un"
                 android:text="@string/un"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot2"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="dos"
                 android:text="@string/dos"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot3"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="tres"
                 android:text="@string/tre"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/botmenos"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="menos"
                 android:text="@string/men"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -163,39 +220,55 @@
 
             <Button
                 android:id="@+id/botpunto"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="punt"
                 android:text="@string/pun"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/bot0"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="cero"
                 android:text="@string/res"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/botdel"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="del"
                 android:text="@string/del"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/botmas"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="mas"
                 android:text="@string/mas"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
         </TableRow>
 
         <TableRow
@@ -204,12 +277,16 @@
 
             <Button
                 android:id="@+id/botigual"
-                style="@style/Widget.AppCompat.Button.Small"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="resul"
                 android:text="@string/igu"
-                android:textSize="30sp" />
+                android:textSize="30sp"
+                app:strokeColor="#FFFFFF" />
         </TableRow>
     </TableLayout>
 
